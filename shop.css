@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    z-index: 999;
+   
+    
+
+}
+main{
+    background: url( pexels-stephan-seeber-1261728.jpg   );
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    color: #FFF;
+    padding: 20px;
+   
+    
+}
+
+h1 {
+    margin: 0;
+    color: black;
+    padding-left: 10px;
+    
+}
+nav , #shop{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    margin-left: 5px;
+ }
+
+nav li {
+    float: left;
+    margin-right: 10px;
+    font-size:  15px;
+    margin-top: 4px;
+    margin-left: 2px;
+    
+}
+
+nav li a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #333;
+    color: #FFF;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.item {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.item button {
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #FFF;
+    color: #333;
+    border: 1px solid #333;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}
+#ii{
+     color: rgb(182, 100, 6);
+     
+     margin-top: 4px;
+    
+}
+#shop{
+    transition: 1s ;
+     
+
+}
+ #shop:hover {
+    transform: scale(1.1);
+    
+    color: orange;
+    cursor: pointer;
+ 
+}
+.search-box {
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 33px;
+    margin-top: 4px;
+      margin-left: 200px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+.search-box button {
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-box button  :hover {
+    background-color: #FFF;
+    color: #333;
+    border: 1px solid #333;
+}
+.log {
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+     margin-left: 30px;
+     margin-top: 4px;
+    
+
+     
+}
+.log :hover{
+    background-color: #FFF;
+    color: #333;
+    border: 1px solid #333;
+}
+#pro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .imaj {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .imaj {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .txt {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+p{
+display: inline;
+}
